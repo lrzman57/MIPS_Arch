@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+TC1: I-type ADD | ALUResult =         14, ZeroFlag = 0
+TC2: R-type SUB | ALUResult =          0, ZeroFlag = 1
+TC3: Branch | ZeroFlag = 1, Branch Address =        104
+TC4: RegDst = 1, WriteRegister =  5
+TC5: After Reset | ALUResult =          0, WriteRegister =  0
+$finish called at time : 130 ns : File "C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sim_1/new/Excecute_tb.v" Line 99

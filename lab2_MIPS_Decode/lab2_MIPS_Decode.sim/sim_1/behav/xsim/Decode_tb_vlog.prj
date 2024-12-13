@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab2_MIPS_Decode.srcs/sources_1/new/Control.v" \
+"../../../../lab2_MIPS_Decode.srcs/sources_1/new/Decode.v" \
+"../../../../lab2_MIPS_Decode.srcs/sources_1/new/ID_EX.v" \
+"../../../../lab2_MIPS_Decode.srcs/sources_1/new/Registers.v" \
+"../../../../lab2_MIPS_Decode.srcs/sources_1/new/Sign_Extend.v" \
+"../../../../lab2_MIPS_Decode.srcs/sim_1/new/Decode_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

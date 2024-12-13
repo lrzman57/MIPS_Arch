@@ -1,0 +1,13 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sim_1/new/Excecute_tb.v,1733212174,verilog,,,,Execute_Stage_tb,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/ALU.v,1733212001,verilog,,C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/ALU_control.v,,Execute_ALU,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/ALU_control.v,1733211968,verilog,,C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/Add.v,,ALU_Control,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/Add.v,1733211955,verilog,,C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/Ex_mem.v,,Add,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/Ex_mem.v,1733212011,verilog,,C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/Excecute.v,,EX_MEM,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/Excecute.v,1733212035,verilog,,C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/Mux_32.v,,Execute_Stage,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/Mux_32.v,1733211983,verilog,,C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/Mux_5.v,,Mux_32,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sources_1/new/Mux_5.v,1733211991,verilog,,C:/Users/Loagster/Desktop/4300/lab3_MIPs_EX/lab3_MIPs_EX.srcs/sim_1/new/Excecute_tb.v,,Mux_5,,,,,,,,
