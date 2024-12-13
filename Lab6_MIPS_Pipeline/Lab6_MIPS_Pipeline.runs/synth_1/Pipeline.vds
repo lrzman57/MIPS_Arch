@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Dec 12 19:06:34 2024
+# Process ID: 31252
+# Current directory: C:/Users/Loagster/Desktop/4300/Lab6_MIPS_Pipeline/Lab6_MIPS_Pipeline.runs/synth_1
+# Command line: vivado.exe -log Pipeline.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Pipeline.tcl
+# Log file: C:/Users/Loagster/Desktop/4300/Lab6_MIPS_Pipeline/Lab6_MIPS_Pipeline.runs/synth_1/Pipeline.vds
+# Journal file: C:/Users/Loagster/Desktop/4300/Lab6_MIPS_Pipeline/Lab6_MIPS_Pipeline.runs/synth_1\vivado.jou
+# Running On: DESKTOP-LKEL6JE, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 10, Host memory: 68635 MB
+#-----------------------------------------------------------
+source Pipeline.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 469.496 ; gain = 181.969
+Command: synth_design -top Pipeline -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 25708
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 917.844 ; gain = 445.391
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2577] procedural assignment to a non-register reg_dst is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:37]
+ERROR: [Synth 8-2577] procedural assignment to a non-register alu_src is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:38]
+ERROR: [Synth 8-2577] procedural assignment to a non-register mem_to_reg is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:39]
+ERROR: [Synth 8-2577] procedural assignment to a non-register reg_write is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:40]
+ERROR: [Synth 8-2577] procedural assignment to a non-register mem_read is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:41]
+ERROR: [Synth 8-2577] procedural assignment to a non-register mem_write is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:42]
+ERROR: [Synth 8-2577] procedural assignment to a non-register branch is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:43]
+ERROR: [Synth 8-2577] procedural assignment to a non-register jump is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:44]
+ERROR: [Synth 8-2577] procedural assignment to a non-register alu_op is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:45]
+ERROR: [Synth 8-2577] procedural assignment to a non-register reg_dst is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:49]
+ERROR: [Synth 8-2577] procedural assignment to a non-register alu_src is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:50]
+ERROR: [Synth 8-2577] procedural assignment to a non-register mem_to_reg is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:51]
+ERROR: [Synth 8-2577] procedural assignment to a non-register reg_write is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:52]
+ERROR: [Synth 8-2577] procedural assignment to a non-register mem_read is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:53]
+ERROR: [Synth 8-2577] procedural assignment to a non-register mem_write is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:54]
+ERROR: [Synth 8-2577] procedural assignment to a non-register branch is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:55]
+ERROR: [Synth 8-2577] procedural assignment to a non-register jump is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:56]
+ERROR: [Synth 8-2577] procedural assignment to a non-register alu_op is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:57]
+INFO: [Synth 8-10285] module 'Control' is ignored due to previous errors [C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v:61]
+INFO: [Synth 8-9084] Verilog file 'C:/Users/Loagster/Desktop/4300/lab2_MIPS_Decode/lab2_MIPS_Decode.srcs/sources_1/new/Control.v' ignored due to errors
+ERROR: [Synth 8-439] module 'Pipeline' not found
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1024.555 ; gain = 552.102
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 20 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 12 19:06:47 2024...
