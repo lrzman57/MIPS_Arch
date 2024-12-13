@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/Loagster/Desktop/4300/lab1_MIPS_IF/lab1_MIPS_IF.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab1_MIPS_IF/lab1_MIPS_IF.srcs/sources_1/new/IF.v,1733441431,verilog,,,,IF,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab1_MIPS_IF/lab1_MIPS_IF.srcs/sources_1/new/Latch.v,1734098477,verilog,,C:/Users/Loagster/Desktop/4300/lab1_MIPS_IF/lab1_MIPS_IF.srcs/sources_1/new/Mux.v,,Latch,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab1_MIPS_IF/lab1_MIPS_IF.srcs/sources_1/new/Mux.v,1734098405,verilog,,C:/Users/Loagster/Desktop/4300/lab1_MIPS_IF/lab1_MIPS_IF.srcs/sources_1/new/incrementer.v,,Mux,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab1_MIPS_IF/lab1_MIPS_IF.srcs/sources_1/new/incrementer.v,1734097994,verilog,,C:/Users/Loagster/Desktop/4300/lab1_MIPS_IF/lab1_MIPS_IF.srcs/sources_1/new/memory.v,,incrementer,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab1_MIPS_IF/lab1_MIPS_IF.srcs/sources_1/new/memory.v,1734098455,verilog,,C:/Users/Loagster/Desktop/4300/lab1_MIPS_IF/lab1_MIPS_IF.srcs/sources_1/new/pc_counter.v,,memory,,,,,,,,
+C:/Users/Loagster/Desktop/4300/lab1_MIPS_IF/lab1_MIPS_IF.srcs/sources_1/new/pc_counter.v,1734098344,verilog,,C:/Users/Loagster/Desktop/4300/lab1_MIPS_IF/lab1_MIPS_IF.srcs/sources_1/new/IF.v,,pc_counter,,,,,,,,
